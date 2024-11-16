@@ -5,7 +5,7 @@ WORKDIR /app
 COPY first_flask.py /app/
 COPY config.json /app/
 COPY requirements.txt /app/
-copy printcolors.py
+COPY printcolors.py /app/
 
 RUN pip install -r requirements.txt
 
